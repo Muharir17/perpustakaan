@@ -14,7 +14,7 @@
                 ></a>
                 <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-parent="#sidenavAccordion">
                     <nav class="sb-sidenav-menu-nested nav">
-                        <a class="nav-link" href="layout-static.html">Master Buku</a>
+                        <a class="nav-link" href="{{ route('books.index') }}">Master Buku</a>
                         <a class="nav-link" href="layout-static.html">Peminjaman</a>
                         <a class="nav-link" href="layout-sidenav-light.html">Pengembalian</a>
                     </nav>
